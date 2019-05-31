@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    background-color: #DCDCDC;
+   
+}
+
+.hero-image {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: 25px 0;
+}
+
+
+.hero-links a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+a, a:link, a:visited {
+    color: #777;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.hero-description {
+    display: flex;
+    align-items: center;
+
+}

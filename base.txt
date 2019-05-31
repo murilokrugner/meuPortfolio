@@ -1,0 +1,23 @@
+
+
+.hero-description {
+    color: #777;
+    letter-spacing: -0.1px;
+    line-height: 25px;
+    margin: 0 0 10px 0;
+}
+
+.hero-links a {
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+}
+
+
+
+hr {
+    height: 0;
+}
+
+
+
