@@ -1,8 +1,25 @@
 .container {
     display: flex;
+    flex: 1;
     background-color: #DCDCDC;
-   
+    padding: 20px;
+    height: 700px;
+    width: 1000px;
 }
+
+.box1 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box2 {
+    flex:1;
+    flex-flow: column;
+
+}
+
+body {background-color: #608FBB}
 
 .hero-image {
     border-radius: 50%;
@@ -19,17 +36,28 @@
 }
 
 a, a:link, a:visited {
-    color: #777;
+    color: #6B544E;
+    padding: 10px;
 }
 
 a {
     background-color: transparent;
     text-decoration: none;
+    
 }
-
 
 .hero-description {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
+
+.hero-social {
+    padding: 10px;
+}
+
+
+/*https://origamid.com/projetos/flexbox-guia-completo/*/
+
+/* https://htmlcolorcodes.com/*/
