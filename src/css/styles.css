@@ -1,25 +1,31 @@
+body {background-color: #608FBB}
+
 .container {
-    display: flex;
-    flex: 1;
     background-color: #DCDCDC;
     padding: 20px;
-    height: 700px;
+    height: 1000px;
     width: 1000px;
 }
 
 .box1 {
     flex: 1;
     flex-direction: column;
-    justify-content: flex-end;
+}
+
+.divider {
+    display: block;
+    width: 300px;
+    margin: 40px auto 30px auto;
+    border: 0;
+    border-top: 1px solid #CCC;
 }
 
 .box2 {
-    flex:1;
-    flex-flow: column;
-
+   flex: 1;
+   flex-direction: column;
+   padding: 20px;
+   margin: 40px;
 }
-
-body {background-color: #608FBB}
 
 .hero-image {
     border-radius: 50%;
@@ -56,6 +62,53 @@ a {
 .hero-social {
     padding: 10px;
 }
+
+.sobreTitle {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.skills {
+    height: 300px;
+    width: 800px;
+    display: flex;
+}
+
+.h4Soft {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.h4Hard {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.boxSoft {
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.boxSoft li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxHard li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxHard {
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+
+
+
+
 
 
 /*https://origamid.com/projetos/flexbox-guia-completo/*/
