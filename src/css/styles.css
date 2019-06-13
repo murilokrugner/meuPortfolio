@@ -10,18 +10,36 @@
 /* .menu { width:400px; } */
 }
 
-body {background-color: #608FBB}
+body {background-color: #608FBB;}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-boz-sizing: border-box;
+        -moz-boz-sizing: border-box;
+             boz-sizing: border-box;
+}
+
+
 
 .container {
     background-color: #DCDCDC;
-    padding: 20px;
+    padding: 0 20px;
     height: 1000px;
-    width: 1000px;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box1 {
     flex: 1;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
 }
 
 .divider {
@@ -35,15 +53,18 @@ body {background-color: #608FBB}
 .box2 {
    flex: 1;
    flex-direction: column;
-   padding: 20px;
-   margin: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   padding: 0 20px;
+   position: relative;
 }
 
 .hero-image {
     border-radius: 50%;
-    width: 170px;
     height: 170px;
     margin: 25px 0;
+    max-width: 100%;
 }
 
 
@@ -80,8 +101,13 @@ a {
 }
 .skills {
     height: 300px;
-    width: 800px;
     display: flex;
+    width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 
 .h4Soft {
@@ -94,10 +120,18 @@ a {
 
 .boxSoft {
     padding: 10px;
-    height: 400px;
+    height: 210px;
     width: 400px;
     flex-direction: row;
     justify-content: flex-start;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border: solid thick white;
+    border-radius: 2em;
+    background-color: white;
+    
 }
 
 .boxSoft li {
@@ -110,10 +144,17 @@ a {
 
 .boxHard {
     padding: 10px;
-    height: 400px;
+    height: 210px;
     width: 400px;
     flex-direction: row;
     justify-content: flex-end;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border: solid thick white;
+    border-radius: 2em;
+    background-color: white;
 }
 
 /*https://origamid.com/projetos/flexbox-guia-completo/*/
